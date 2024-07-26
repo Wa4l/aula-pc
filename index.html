@@ -1,15 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Aula PC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 1em;
+        }
+        .column {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 1em;
+            padding: 1em;
+            flex: 1 1 calc(33% - 2em);
+            box-sizing: border-box;
+        }
+        .column h2 {
+            color: #333;
+        }
+        .column p {
+            color: #666;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-    
-ger lindo
-
-
+    <header>
+        <h1>Aula PC</h1>
+    </header>
+    <div class="container">
+        <div class="column">
+            <h2>Introdução</h2>
+            <p>Bem-vindo à aula sobre o uso do PC. Nesta seção, você aprenderá o básico sobre hardware e software.</p>
+        </div>
+        <div class="column">
+            <h2>Configurações</h2>
+            <p>Saiba como configurar seu computador para obter o melhor desempenho e segurança.</p>
+        </div>
+        <div class="column">
+            <h2>Resolução de Problemas</h2>
+            <p>Encontre soluções para problemas comuns que podem ocorrer com seu PC e como corrigi-los.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Aula PC. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
-
